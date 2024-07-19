@@ -39,7 +39,7 @@ section {
   align-self: center;
 }
 
-.testimonial-card {
+/* .testimonial-card {
   background-color: var(--white);
   width: 340px;
   height: 233px;
@@ -89,7 +89,7 @@ section {
   overflow: hidden;
   text-overflow: ellipsis;
   margin: 8px 0px 0px 0px;
-}
+} */
 
 .credits {
   color: #777;

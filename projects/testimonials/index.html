@@ -12,7 +12,6 @@
     />
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" href="assets/favicon.ico" sizes="any" />
-    <style></style>
   </head>
   <body>
     <main>
@@ -47,6 +46,35 @@
             and depth of creativity are astounding!
           </blockquote>
         </figure>
+
+        <testimonial-card> </testimonial-card>
+
+        <testimonial-card>
+          <h4
+            slot="username"
+            class="testimonial-card__header__info__title text-lg font-semibold"
+          >
+            John Doe
+          </h4>
+          <span slot="tag" class="testimonial-card__header__info__tag text-base"
+            >@johndoe</span
+          >
+          <blockquote
+            class="testimonial-card__details text-base"
+            aria-label="Description of Testimonial Card"
+            slot="details"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et
+            est lacus. Morbi nec mi commodo, condimentum orci id, hendrerit
+            libero. Aliquam ut ante ac eros elementum tristique placerat sit
+            amet purus. Curabitur ultrices risus tortor, sed porttitor est
+            suscipit et. Aenean mollis, sem non fringilla volutpat, turpis quam
+            pharetra metus, in viverra est quam sed ipsum. Vivamus interdum
+            aliquet odio vitae gravida. Nulla congue ipsum in dictum sodales.
+            Morbi ultricies luctus imperdiet. Pellentesque habitant morbi
+            tristique senectus et netus et malesuada fames ac turpis egestas.
+          </blockquote>
+        </testimonial-card>
       </section>
     </main>
 
@@ -64,6 +92,6 @@
         >Der Hao</a
       >.
     </div>
-    <script src="js/index.js"></script>
+    <script type="module" src="js/index.js"></script>
   </body>
 </html>
