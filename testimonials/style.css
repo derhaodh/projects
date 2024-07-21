@@ -1,6 +1,5 @@
 /* Put any custom CSS styles here.  */
 /* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
-@import url(../../common/style.css);
 
 :root {
   --white: #ffffff;
