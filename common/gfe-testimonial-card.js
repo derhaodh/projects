@@ -60,7 +60,7 @@ TestimonialCard.innerHTML = /* HTML */ `<style>
       margin: 16px 0px 0px 0px;
     }
   </style>
-  <figure class="testimonial-card" role="listitem">
+  <figure class="testimonial-card shadow-md" role="listitem">
     <figcaption
       class="testimonial-card__header"
       aria-label="testimonial from Sarah Doe"
