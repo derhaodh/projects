@@ -1,6 +1,7 @@
 // vite.config.js
 import { defineConfig } from "vite";
-import { join, parse, resolve } from "path";
+import { resolve } from "path";
+
 export default defineConfig({
   alias: {
     "~": __dirname,
@@ -9,7 +10,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        nested: resolve(__dirname, "projects/testimonials/index.html"),
+        nested: resolve(__dirname, "testimonials/index.html"),
       },
     },
   },
