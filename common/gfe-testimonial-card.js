@@ -48,7 +48,6 @@ TestimonialCard.innerHTML = /* HTML */ `<style>
       white-space: nowrap;
       text-overflow: ellipsis;
       width: 228px;
-      font-size: 14px;
     }
 
     .testimonial-card__details,
@@ -78,7 +77,7 @@ TestimonialCard.innerHTML = /* HTML */ `<style>
           </h4>
         </slot>
         <slot name="tag">
-          <span class="testimonial-card__header__info__tag text-base"
+          <span class="testimonial-card__header__info__tag text-sm"
             >@sarahdole</span
           >
         </slot>
