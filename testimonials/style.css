@@ -6,7 +6,7 @@
   --black: #171717;
   --grey: #525252;
   --bg-color: #f9fafb;
-  --bg-gradient: linear-gradient(to bottom right, #f9fafb, 80%, #d2d6db);
+  --bg-gradient: linear-gradient(140deg, #f1f3f4, #dbdfe4);
 }
 
 body {
@@ -35,7 +35,7 @@ main {
 section {
   display: flex;
   width: 100vw;
-  align-self: center;
+  padding-top: 200px;
   justify-content: center;
 }
 
