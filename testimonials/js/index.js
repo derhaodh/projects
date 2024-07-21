@@ -12,8 +12,8 @@ class GfeTestimonialCard extends HTMLElement {
 
     const styleSheet = document.createElement("style");
     styleSheet.textContent = `${baseStyle}`;
-    this.shadowRoot.appendChild(template.content.cloneNode(true));
     this.shadowRoot.appendChild(styleSheet);
+    this.shadowRoot.appendChild(template.content.cloneNode(true));
     this.avatar = this.shadowRoot.querySelector("img").src = avatarImg;
   }
 }

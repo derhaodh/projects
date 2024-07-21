@@ -48,6 +48,7 @@ TestimonialCard.innerHTML = /* HTML */ `<style>
       white-space: nowrap;
       text-overflow: ellipsis;
       width: 228px;
+      font-size: 14px;
     }
 
     .testimonial-card__details,
@@ -57,7 +58,7 @@ TestimonialCard.innerHTML = /* HTML */ `<style>
       height: 120px;
       overflow: hidden;
       text-overflow: ellipsis;
-      margin: 8px 0px 0px 0px;
+      margin: 16px 0px 0px 0px;
     }
   </style>
   <figure class="testimonial-card" role="listitem">
