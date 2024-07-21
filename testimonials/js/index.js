@@ -2,7 +2,7 @@
 // You may ignore this file and delete if if JavaScript is not required for your challenge.
 import avatarImg from "../assets/profile-thumbnail.png";
 import baseStyle from "/common/style.css?raw";
-import TestimonialCard from "../../../common/gfe-testimonial-card";
+import TestimonialCard from "../../common/gfe-testimonial-card";
 
 class GfeTestimonialCard extends HTMLElement {
   constructor() {
