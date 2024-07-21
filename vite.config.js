@@ -11,6 +11,7 @@ export default defineConfig({
       input: entryPoints("index.html", "projects/testimonials/index.html"),
     },
   },
+  base: "/",
 });
 
 function entryPoints(...paths) {

@@ -37,59 +37,8 @@ section {
   display: flex;
   width: 100vw;
   align-self: center;
+  justify-content: center;
 }
-
-/* .testimonial-card {
-  background-color: var(--white);
-  width: 340px;
-  height: 233px;
-  padding: 24px;
-  display: flex;
-  flex-direction: column;
-  border-radius: 8px;
-  align-self: center;
-  margin: auto;
-}
-
-.testimonial-card__header {
-  display: flex;
-  gap: 16px;
-}
-.testimonial-card__header__image {
-  width: 48px;
-  height: 48px;
-}
-
-.testimonial-card__header__info {
-  display: flex;
-  flex-direction: column;
-}
-
-.testimonial-card__header__info__title {
-  color: var(--black);
-  margin: 0;
-  width: 228px;
-  height: 28px;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.testimonial-card__header__info__tag {
-  color: var(--grey);
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.testimonial-card__details {
-  color: var(--grey);
-  width: 292px;
-  height: 120px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  margin: 8px 0px 0px 0px;
-} */
 
 .credits {
   color: #777;
